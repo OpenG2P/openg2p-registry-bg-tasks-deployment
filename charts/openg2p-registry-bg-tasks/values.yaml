@@ -37,7 +37,7 @@ producer:
   image:
     registry: docker.io
     repository: openg2p/openg2p-registry-bg-tasks-producer
-    tag: "1.1"
+    tag: 1.1.0
     pullPolicy: Always
     # pullSecrets:
     #   - myRegistryKeySecretName
@@ -146,7 +146,7 @@ worker:
   image:
     registry: docker.io
     repository: openg2p/openg2p-registry-bg-tasks-worker
-    tag: "1.1"
+    tag: 1.1.0
     pullPolicy: Always
     # pullSecrets:
     #   - myRegistryKeySecretName
